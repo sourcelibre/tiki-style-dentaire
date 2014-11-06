@@ -628,3 +628,61 @@ td.heading {
 	border: none;
 }
 /* End of File */
+
+/* 
+ * Custom:
+ */
+div.header_outer {
+  background-color: #d2e5d1;
+}
+.cssmenu_horiz a, .cssmenu_vert a {
+  background: none;
+}
+
+/* rainbow tabs */
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+1)
+{
+	background: #bb3e3e;
+}
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+2)
+{
+	background: #3e47bb;
+}
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+3)
+{
+	background: #bbba3e;
+}
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+4)
+{
+	background: #bb3eb2;
+}
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+5)
+{
+	background: #3eacbb;
+}
+/* top section green background */
+#tiki-top ul.cssmenu_horiz li:nth-child(6n+6)
+{
+	background: #45bb3e;
+}
+/* make links white: */
+#tiki-top ul.cssmenu_horiz li a,
+#tiki-top ul.cssmenu_horiz li.selected a
+{
+    color: #fff;
+}
+/* make sure sub sections are not white: */
+#tiki-top ul.cssmenu_horiz li ul li.menuSection a
+{
+    color: #333;
+}
+/* instead of different color, underline selected */
+#tiki-top ul.cssmenu_horiz li.selected a
+{
+    text-decoration: underline;
+}
+/* no uppercase in menu tabs */
+#tiki-top .cssmenu_horiz li a
+{
+    text-transform: none;
+}
