@@ -6,7 +6,7 @@
 */
 
 body {
-	font-family: Geneva, sans-serif;
+	font-family: Arial, sans-serif;
 	font-size: 120%;
 }
 
@@ -628,3 +628,7 @@ td.heading {
 	border: none;
 }
 /* End of File */
+
+td.wikicell {
+  min-height: 2em;
+}
